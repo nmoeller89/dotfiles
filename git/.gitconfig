@@ -1,0 +1,27 @@
+[core]
+	editor = nvim
+[push]
+	autoSetupRemote = true
+[alias]
+	# STATUS
+	s = status
+
+  # DIFF
+  ds = diff --staged
+
+	# LOG
+	last = log -1 HEAD
+	lo = log --pretty=oneline
+	lf = log --pretty=fuller
+	lg = log --pretty=oneline --graph
+
+	# COMMIT
+	c = commit -m
+	ca = commit --amend
+
+	# RESET
+	unstage = reset HEAD --
+	rshard = reset --hard origin/master
+	rshead = reset --hard HEAD
+	clear = clean -fd
+
