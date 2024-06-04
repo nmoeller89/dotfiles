@@ -23,7 +23,7 @@ https://github.com/ryanoasis/nerd-fonts
 Clone repository into `home/.dotfiles`.
 
 ```bash
-git clone https://github.com/evileye89/dotfiles.git ~/.dotfiles
+git clone https://github.com/nmoeller89/dotfiles.git ~/.dotfiles
 ```
 
 ## USAGE
