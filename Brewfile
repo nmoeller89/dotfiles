@@ -6,4 +6,5 @@ brew "neovim"
 brew "ripgrep"
 brew "stow"
 brew "tmux"
+brew "zsh"
 
