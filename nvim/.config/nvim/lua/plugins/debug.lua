@@ -27,7 +27,10 @@ return {
       end
 
       vim.keymap.set("n", "<leader>db", dap.toggle_breakpoint, { desc = "debug toggle breakpoint" })
-      vim.keymap.set("n", "<leader>dc", dap.continue, { desc = "debug continue" })
+      vim.keymap.set("n", "<leader>dc", function ()
+        vim.fn.setenv("RUBYOPT", "-rdebug/open")
+        dap.continue()
+      end, { desc = "debug continue" })
 
       vim.keymap.set("n", "<F7>", dap.step_over, { desc = "debug step over" })
       vim.keymap.set("n", "<F8>", dap.step_into, { desc = "debug step into" })
