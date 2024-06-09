@@ -2,21 +2,23 @@
 # OHMYZSH
 #
 
-export ZSH="$HOME/.oh-my-zsh"
+#export ZSH="$HOME/.oh-my-zsh"
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins-Overview
-plugins=(
-  git
-  brew
-  zsh-syntax-highlighting
-  zsh-autosuggestions
-  fzf
-)
+#plugins=(
+#  git
+#  brew
+#  zsh-syntax-highlighting
+#  zsh-autosuggestions
+#  fzf
+#  nvm
+#  rbenv
+#)
 
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
 
 #
 # ALIASES
