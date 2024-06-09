@@ -31,6 +31,12 @@ if (( ! $+commands[brew] )); then
 fi
 
 #
+# OHMYPOSH
+#
+
+eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/theme.toml)"
+
+#
 # ALIASES
 #
 
