@@ -37,6 +37,14 @@ fi
 eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/theme.toml)"
 
 #
+# ZSH Tools
+#
+
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fpath=(path/to/zsh-completions/src $fpath)
+
+#
 # ALIASES
 #
 
