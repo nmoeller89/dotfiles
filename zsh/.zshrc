@@ -21,6 +21,16 @@
 #source $ZSH/oh-my-zsh.sh
 
 #
+# BREW
+#
+
+if (( ! $+commands[brew] )); then
+  BREW_LOCATION="/home/linuxbrew/.linuxbrew/bin/brew"
+  eval "$("$BREW_LOCATION" shellenv)"
+  unset BREW_LOCATION
+fi
+
+#
 # ALIASES
 #
 
