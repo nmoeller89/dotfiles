@@ -17,7 +17,7 @@ return {
     }
 
     dashboard.section.buttons.val = {
-      dashboard.button("SPC te", "  > Toggle file explorer", "<cmd>:Neotree toggle filesystem reveal current<CR>"),
+      dashboard.button("SPC  e", "  > Toggle file explorer", "<cmd>:Neotree toggle filesystem reveal current<CR>"),
       dashboard.button("SPC ff", "󰱼  > Find File", "<cmd>Telescope find_files<CR>"),
       dashboard.button("SPC fo", "  > Find Recent", "<cmd>Telescope oldfiles<CR>"),
       dashboard.button("SPC fg", "  > Find Word", "<cmd>Telescope live_grep<CR>"),

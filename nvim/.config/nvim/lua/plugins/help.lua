@@ -22,7 +22,8 @@ return {
       g = { name = "go to" },
       G = { name = "git" },
       h = { name = "help" },
-      t = { name = "toggles" },
+      s = { name = "search" },
+      t = { name = "todos" },
       w = { name = "window" },
     }, { prefix = "<leader>" })
   end,

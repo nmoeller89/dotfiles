@@ -20,7 +20,7 @@ return {
     },
   },
   config = function(_, opts)
-    vim.keymap.set("n", "<leader>te", ":Neotree toggle filesystem reveal current<CR>", { desc = "file tree toggle" })
+    vim.keymap.set("n", "<leader>e", ":Neotree toggle filesystem reveal current<CR>", { desc = "file tree toggle" })
 
     require("neo-tree").setup(opts)
   end
