@@ -11,13 +11,14 @@ return {
       require("mason-lspconfig").setup({
         ensure_installed = {
           "lua_ls",
---          "html",
---          "cssls",
---          "tailwindcss",
---          "tsserver",
---          "eslint",
---          "solargraph",
---          "standardrb",
+          "taplo",
+          "html",
+          "cssls",
+          "tailwindcss",
+          "tsserver",
+          "eslint",
+          "solargraph",
+          "standardrb",
         }
       })
     end,
@@ -31,27 +32,30 @@ return {
       lspconfig.lua_ls.setup({
         capabilities = capabilities
       })
---      lspconfig.html.setup({
---        capabilities = capabilities
---      })
---      lspconfig.cssls.setup({
---        capabilities = capabilities
---      })
---      lspconfig.tailwindcss.setup({
---        capabilities = capabilities
---      })
---      lspconfig.tsserver.setup({
---        capabilities = capabilities
---      })
---      lspconfig.eslint.setup({
---        capabilities = capabilities
---      })
---      lspconfig.solargraph.setup({
---        capabilities = capabilities
---      })
---      lspconfig.standardrb.setup({
---        capabilities = capabilities
---      })
+      lspconfig.taplo.setup({
+        capabilities = capabilities
+      })
+      lspconfig.html.setup({
+        capabilities = capabilities
+      })
+      lspconfig.cssls.setup({
+        capabilities = capabilities
+      })
+      lspconfig.tailwindcss.setup({
+        capabilities = capabilities
+      })
+      lspconfig.tsserver.setup({
+        capabilities = capabilities
+      })
+      lspconfig.eslint.setup({
+        capabilities = capabilities
+      })
+      lspconfig.solargraph.setup({
+        capabilities = capabilities
+      })
+      lspconfig.standardrb.setup({
+        capabilities = capabilities
+      })
 
       vim.keymap.set("n", "<leader>fD", vim.lsp.buf.declaration, { desc = "declaration" })
       vim.keymap.set("n", "<leader>fd", vim.lsp.buf.definition, { desc = "definition" })
