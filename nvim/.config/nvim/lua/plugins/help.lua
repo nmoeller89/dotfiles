@@ -15,11 +15,12 @@ return {
     -- <bs> decremental selection
 
     wk.register({
-      c = { name = "code" },
+      c = { name = "code actions" },
       d = { name = "debug" },
       e = { name = "explorer" },
       f = { name = "find" },
-      g = { name = "git" },
+      g = { name = "go to" },
+      G = { name = "git" },
       h = { name = "help" },
       t = { name = "toggles" },
       w = { name = "window" },

@@ -36,8 +36,8 @@ return {
       vim.keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<CR>", { desc = "find open buffers" })
       vim.keymap.set("n", "<leader>fa", "<cmd>Telescope find_files hidden=true no_ignore=true<CR>", { desc = "find all files" })
       vim.keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<CR>", { desc = "find files" })
-      vim.keymap.set("n", "<leader>fg", "<cmd>Telescope live_grep<CR>", { desc = "find word" })
-      vim.keymap.set("n", "<leader>fw", "<cmd>Telescope live_grep_args live_grep_args<CR>", { desc = "find word with args" })
+      vim.keymap.set("n", "<leader>fw", "<cmd>Telescope live_grep<CR>", { desc = "find word" })
+      vim.keymap.set("n", "<leader>fW", "<cmd>Telescope live_grep_args live_grep_args<CR>", { desc = "find word with args" })
     end,
   },
   {

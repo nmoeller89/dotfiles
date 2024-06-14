@@ -57,10 +57,10 @@ return {
         capabilities = capabilities
       })
 
-      vim.keymap.set("n", "<leader>fD", vim.lsp.buf.declaration, { desc = "declaration" })
-      vim.keymap.set("n", "<leader>fd", vim.lsp.buf.definition, { desc = "definition" })
-      vim.keymap.set("n", "<leader>fi", vim.lsp.buf.implementation, { desc = "implementation" })
-      vim.keymap.set("n", "<leader>fr", vim.lsp.buf.references, { desc = "references" })
+      vim.keymap.set("n", "<leader>gD", vim.lsp.buf.declaration, { desc = "declaration" })
+      vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, { desc = "definition" })
+      vim.keymap.set("n", "<leader>gi", vim.lsp.buf.implementation, { desc = "implementation" })
+      vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, { desc = "references" })
 
       vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, { desc = "code action" })
       vim.keymap.set("n", "<leader>cf", vim.lsp.buf.format, { desc = "code format" })
