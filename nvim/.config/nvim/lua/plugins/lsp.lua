@@ -12,6 +12,7 @@ return {
         ensure_installed = {
           "lua_ls",
           "taplo",
+          "marksman",
           "html",
           "cssls",
           "tailwindcss",
@@ -33,6 +34,9 @@ return {
         capabilities = capabilities
       })
       lspconfig.taplo.setup({
+        capabilities = capabilities
+      })
+      lspconfig.marksman.setup({
         capabilities = capabilities
       })
       lspconfig.html.setup({
