@@ -39,6 +39,10 @@
 |`w`|jump to next word|
 |`b`|jump to word beginning|
 
+#### Search
+|`/{searchterm}`|search for term|
+|`#`|search word|
+
 ### Visual mode / Selection
 |KEY|DESCRIPTION|
 |---|-----------|
