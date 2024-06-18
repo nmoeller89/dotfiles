@@ -40,8 +40,19 @@
 |`b`|jump to word beginning|
 
 #### Search
+|KEY|DESCRIPTION|
+|---|-----------|
 |`/{searchterm}`|search for term|
 |`#`|search word|
+
+#### Changes
+|KEY|DESCRIPTION|
+|---|-----------|
+|`u`|undo|
+|`<C-r>`|redo|
+|`:s/{foo}/{bar}`|search and replace (current line)|
+|`:%s/{foo}/{bar}`|search and replace (file)|
+|`:{a},{b}s/{foo}/{bar}`|search and replace (range)|
 
 ### Visual mode / Selection
 |KEY|DESCRIPTION|
