@@ -8,7 +8,7 @@ return {
 
       treesitter.setup({
         auto_install = true,
-        autotag = { enable = true },
+--        autotag = { enable = true },
         highlight = { enable = true },
         indent = { enable = true },
         incremental_selection = {
