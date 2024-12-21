@@ -14,6 +14,7 @@ return {
           "taplo",
           "marksman",
           "html",
+          "emmet_language_server",
           "cssls",
           "tailwindcss",
           "tsserver",
@@ -40,6 +41,9 @@ return {
         capabilities = capabilities
       })
       lspconfig.html.setup({
+        capabilities = capabilities
+      })
+      lspconfig.emmet_language_server.setup({
         capabilities = capabilities
       })
       lspconfig.cssls.setup({
