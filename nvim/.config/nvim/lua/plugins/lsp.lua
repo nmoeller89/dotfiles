@@ -15,12 +15,14 @@ return {
           "marksman",
           "html",
           "emmet_language_server",
+          "prettier",
           "cssls",
           "tailwindcss",
           "tsserver",
           "eslint",
           "solargraph",
           "standardrb",
+          "astro",
         }
       })
     end,
@@ -46,6 +48,9 @@ return {
       lspconfig.emmet_language_server.setup({
         capabilities = capabilities
       })
+      lspconfig.prettier.setup({
+        capabilities = capabilities
+      })
       lspconfig.cssls.setup({
         capabilities = capabilities
       })
@@ -62,6 +67,9 @@ return {
         capabilities = capabilities
       })
       lspconfig.standardrb.setup({
+        capabilities = capabilities
+      })
+      lspconfig.astro.setup({
         capabilities = capabilities
       })
 
